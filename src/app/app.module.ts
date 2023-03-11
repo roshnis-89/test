@@ -17,7 +17,7 @@ import { MyyprojectsComponent } from './myyprojects/myyprojects.component';
     HomeComponent,
     SecondComponent,
     FooterComponent,
-    ProjectComponent
+    ProjectComponent,
     MyyprojectsComponent
   ],
   imports: [
