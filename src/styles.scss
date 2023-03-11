@@ -1,7 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+$color : #000044;
 .f-48{
     font-size: 48px;
 }
 .theme{
-    color: #000044;
+    color: $color;
+}
+.bg-theme{
+    background-color: $color;
+    color: #fff;
 }
