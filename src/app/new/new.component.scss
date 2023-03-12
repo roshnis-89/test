@@ -1,0 +1,97 @@
+.form-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+.form select,
+input,
+textarea {
+  font-weight: 500;
+  color: rgb(135, 124, 0);
+  background-color: rgb(231, 231, 231);
+  border-radius: 0px;
+  outline: none;
+  font-size: 13px;
+  border-bottom: 1px solid rgb(166, 166, 166);
+  padding: 7px 15px !important;
+}
+
+.form {
+  padding: 8px 30px;
+}
+
+.form-check-input:checked {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.label {
+  cursor: pointer;
+//   text-indent: -90px;
+  width: 30px;
+  height: 17px;
+  background: rgb(0, 0, 0);
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+.label:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  width: 13px;
+  height: 13px;
+  background:  rgb(135, 124, 0);;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + .label {
+  background: #000000;
+}
+
+input:checked + .label:after {
+  left: calc(100% - 4px);
+  transform: translateX(-100%);
+}
+
+.label:active:after {
+  width: 20px;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+
+    background: url(../../assets/calender.png) no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+ol{
+    margin: 0px !important;
+}
+li{
+    font-size: 13px;
+}
+.upload > label {
+    font-size: 16px !important;
+}
+.dotted{
+    height: 140px;
+    width: 100%;
+    border: 2px dashed rgb(135, 124, 0); 
+}
+.upload > button:hover {
+    border: 1px solid #000044 ;
+}

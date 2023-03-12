@@ -1,0 +1,184 @@
+<div class="container mb-4">
+    Back to projects > Create New Project
+    <div class="row my-3">
+        <div class="col">
+            <span class="theme fw-bold h4">Create New Project</span>
+        </div>
+    </div>
+    <div class="row border border-2 p-4   my-3">
+
+        <div class="col  p-3">
+
+
+            <div class="row p">
+                <div class="col-6">
+                    <div class="form mb-2">
+                        <label class="form-label" for="">Create team*</label>
+                        <select class="form-select" name="" id="">
+                            <option value="" selected disabled>Select Advanta team</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-6"></div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form mb-2">
+                        <label class="form-label" for="">Name of the product / solution*</label>
+                        <input type="text" class="form-control" placeholder="Enter name of the product here">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form mb-2">
+                        <label class="form-label" for="">USP</label>
+                        <input type="text" class="form-control" placeholder="What makes your product other than better">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form mb-2">
+                        <label class="form-label" for="">Describe your product / solution</label>
+                        <textarea class="form-control" name="" id="" placeholder="Type here..." rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form mb-2">
+                        <label class="form-label" for="">Produuct benifits for the customer*</label>
+                        <textarea class="form-control" name="" id="" placeholder="Type here..." rows="5"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form mb-2">
+                        <label class="form-label" for="">Project status</label>
+                        <div class="d-flex align-items-center">
+
+                            <span class="mr-3">
+                                Ongoing
+                            </span>
+                            <div class="d-flex align-items-center ">
+                                <input class=" " type="checkbox" id="flexSwitchCheckChecked" checked>
+                                <label class=" mx-2 label" for="flexSwitchCheckChecked"></label>Completed
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form mb-2">
+                        <label class="form-label" for="">Start date</label>
+                        <input type="date" class="form-control" name="" id="" placeholder="Select Date" rows="5">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form mb-2">
+                        <label class="form-label" for="">End date</label>
+                        <input type="date" class="form-control" name="" id="" placeholder="Select Date" rows="5">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="col-6">
+                    <div class="form mb-2">
+                        <label class="form-label" for="">Acess control</label>
+                        <div class="d-flex align-items-center">
+
+                            <span class="mr-3">
+                                Internal
+                            </span>
+                            <div class="d-flex align-items-center ">
+                                <input class=" " type="checkbox" id="flexSwitchCheckChecked" checked>
+                                <label class=" mx-2 label" for="flexSwitchCheckChecked"></label>External
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row p">
+                <div class="col-6">
+                    <div class="form mb-2">
+                        <label class="form-label" for="">Tech stack</label>
+                        <select class="form-select" name="" id="">
+                            <option value="" selected disabled>Select </option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="col-6">
+                    <div class="form mb-2">
+                        <label class="form-label" for="">Relavant links</label>
+                        <input type="text" class="form-control" placeholder="Copy project linkhere">
+                    </div>
+                </div>
+
+            </div>
+            <div class="row p">
+                <div class="col-6">
+                    <div class="form mb-2">
+                        <label class="form-label" for="">Contact point</label>
+                        <input type="text" class="form-control" placeholder="Enter email or GID">
+
+                    </div>
+                </div>
+
+
+                <div class="col-6">
+                    <div class="form mb-2">
+                        <label class="form-label" for="">Keywords</label>
+                        <input type="text" class="form-control" placeholder=" ">
+                    </div>
+                </div>
+
+            </div>
+            <div class="row p">
+                <div class="col  ">
+                    <div class="form mb-2 upload">
+                        <label class="form-label" for="">Upload project</label>
+                        <p class="mx-3 mb-0 theme">Upload Instruction</p>
+                        <ol>
+                            <li>Only ppt file format is supported.</li>
+                            <li>Only ppt file format is supported.</li>
+                            <li>Only ppt file format is supported.</li>
+                            <li>Only ppt file format is supported.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reiciendis officia a libero
+                                nostrum earum unde neque quod sequi est Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quaerat.</li>
+                        </ol>
+
+
+                        <div class="dotted m-3 d-flex justify-content-center align-items-center">
+                            <span class="fw-bold theme">Drag and drop file to upload</span>
+                        </div>
+
+
+                        <button (click)="up.click()" class="btn  rounded-0 bg-theme">Choose File</button>
+                        <input #up type="file" class="form-control d-none"   placeholder="Enter email or GID"  >
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="d-flex justify-content-end">
+        <button    class="btn btn-warning rounded-0">Create Projects</button>
+        <button   class="btn  rounded-0 bg-theme mx-3">Choose File</button>
+        <button class="btn theme">Cancel</button>
+    </div>
+</div>
