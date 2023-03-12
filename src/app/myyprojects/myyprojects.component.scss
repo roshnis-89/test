@@ -1,12 +1,86 @@
-table > tbody>  tr {
-  background-color: rgba(224, 240, 252, 0.661);
- border-radius: 5px;
+table > tbody > tr {
+  background-color: #e2e2e2a8;
+  border-radius: 5px;
 }
-table{
-    border-collapse: separate;
-    border-spacing: 0 1em;
+table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
 }
+
+td {
+  padding: 5px 8px;
+  font-weight: 500;
+}
+td div {
+  display: flex;
+  flex-direction: column;
+}
+td div:nth-child(1) {
+  font-size: 13px;
+  margin: 0px;
+}
+td div:nth-child(2) {
+  font-size: 12px;
+}
+// tr::before {
+//     content: "Read this: ";
+//   }
+
+.status {
+  font-style: italic;
+  padding: 4px 13px;
+  font-weight: bolder;
+  width: 105px;
+}
+.approved {
+  color: rgb(0, 170, 0);
+}
+.approved-c > div {
+  background-color: rgb(0, 170, 0);
+}
+.await {
+  color: rgb(234, 140, 0);
+}
+.await-c > div {
+  background-color: rgb(234, 140, 0);
+}
+.reject {
+  color: rgb(234, 0, 0);
+}
+.reject-c > div {
+  background-color: rgb(234, 0, 0);
+}
+.inprogress-c > div {
+  background-color: rgb(0, 27, 84);
+}
+.inprogress {
+  color: rgb(0, 27, 84);
+  background-color: lightblue;
+  border-radius: 22px;
+}
+.status-label {
+  width: 30px !important;
  
-td{
-    padding: 4px 8px;
+}
+.status-label > div {
+  height: 65px;
+  width: 9px;
+  //   background-color: yellow;
+  border-radius: 9px;
+  padding: 0px !important;
+//   margin-right: 13px;
+}
+.hints{
+    padding: 10px;
+}
+.hint > div {
+  height: 20px;
+  width: 30px;
+//   background-color: red;
+}
+.hint > span{
+    font-size: 13px;
+    white-space: nowrap;
+    font-weight: 500;
+    margin-right: 10px;
 }

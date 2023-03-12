@@ -152,17 +152,18 @@
                             <li>Only ppt file format is supported.</li>
                             <li>Only ppt file format is supported.</li>
                             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reiciendis officia a libero
-                                nostrum earum unde neque quod sequi est Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quaerat.</li>
+                                nostrum earum unde neque quod sequi est Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ex, quaerat.</li>
                         </ol>
 
 
-                        <div class="dotted m-3 d-flex justify-content-center align-items-center">
+                        <div (click)="up.click()" class="dotted m-3 d-flex justify-content-center align-items-center">
                             <span class="fw-bold theme">Drag and drop file to upload</span>
                         </div>
 
 
                         <button (click)="up.click()" class="btn  rounded-0 bg-theme">Choose File</button>
-                        <input #up type="file" class="form-control d-none"   placeholder="Enter email or GID"  >
+                        <input #up type="file" class="form-control d-none" placeholder="Enter email or GID">
 
                     </div>
                 </div>
@@ -177,8 +178,8 @@
 
     </div>
     <div class="d-flex justify-content-end">
-        <button    class="btn btn-warning rounded-0">Create Projects</button>
-        <button   class="btn  rounded-0 bg-theme mx-3">Choose File</button>
+        <button class="btn btn-warning rounded-0">Create Projects</button>
+        <button class="btn  rounded-0 bg-theme mx-3">Save as draf</button>
         <button class="btn theme">Cancel</button>
     </div>
 </div>

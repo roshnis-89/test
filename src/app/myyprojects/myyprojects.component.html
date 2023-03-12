@@ -1,56 +1,130 @@
 <div class="container">
-    <span class="h4 theme fw-bolder">
+    Back to projects > My Projects
+    <span class="h4 theme fw-bolder d-block">
         My Projects
     </span>
     <div class="row">
         <div class="col">
             <div class="w-100">
-                <table class="  w-100">
+                <div class="d-flex justify-content-end">
+                    <a class="theme fw-bold">Back</a>
+                </div>
+
+                <table class="   w-100 p-4">
                     <thead>
+                        <th></th>
                         <th>Project Name</th>
                         <th>Start Date</th>
                         <th>End Date</th>
                         <th>last Edited</th>
                         <th>Status</th>
-                        <th></th>
+                        <th style="width: 100px;"></th>
                     </thead>
                     <tbody>
+
                         <tr>
-                        <td><div>
-                            test
-                        </div></td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                    </tr>
-                    <tr>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                    </tr>
-                    <tr>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                    </tr>
-                    <tr>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                    </tr> 
+                            <td class="status-label inprogress-c p-0">
+                                <div class=""></div>
+                            </td>
+                            <td>
+                                <div class="py-2  ">
+                                    <span class="  theme fw-bold mb-0">Project Name</span>
+                                    <span>Team</span>
+                                </div>
+                            </td>
+                            <td>28/09/2022</td>
+                            <td>Ongoing</td>
+                            <td>3 Months ago</td>
+                            <td>
+                                <div class="status inprogress">
+                                    In Progress
+                                </div>
+                            </td>
+                            <td> <i class="far fa-ellipsis-h theme-y fw-bolder"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="status-label approved-c p-0">
+                                <div class=""></div>
+                            </td>
+                            <td>
+                                <div class="py-2  ">
+                                    <span class="  theme fw-bold mb-0">Project Name</span>
+                                    <span>Team</span>
+                                </div>
+                            </td>
+                            <td>28/09/2022</td>
+                            <td>Ongoing</td>
+                            <td>3 Months ago</td>
+                            <td>
+                                <div class="status approved">
+                                    Approved
+                                </div>
+                            </td>
+                            <td> <i class="far fa-ellipsis-h theme-y fw-bolder"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="status-label await-c p-0">
+                                <div class=""></div>
+                            </td>
+                            <td>
+                                <div class="py-2  ">
+                                    <span class="  theme fw-bold mb-0">Project Name</span>
+                                    <span>Team</span>
+                                </div>
+                            </td>
+                            <td>28/09/2022</td>
+                            <td>Ongoing</td>
+                            <td>3 Months ago</td>
+                            <td>
+                                <div class="status await text-nowrap">
+                                    Awaiting status
+                                </div>
+                            </td>
+                            <td> <i class="far fa-ellipsis-h theme-y fw-bolder"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="status-label reject-c p-0">
+                                <div class=""></div>
+                            </td>
+                            <td>
+                                <div class="py-2  ">
+                                    <span class="  theme fw-bold mb-0">Project Name</span>
+                                    <span>Team</span>
+                                </div>
+                            </td>
+                            <td>28/09/2022</td>
+                            <td>Ongoing</td>
+                            <td>3 Months ago</td>
+                            <td>
+                                <div class="status reject">
+                                    Reject
+                                </div>
+                            </td>
+                            <td> <i class="far fa-ellipsis-h theme-y fw-bolder"></i></td>
+                        </tr>
+
                     </tbody>
-                   
+
+                    <div class="hints d-flex flex-row">
+                        <div class="d-flex flex-row align-items-center hint inprogress-c">
+                            <div class=""></div>
+                            <span class="mx-2">Draft</span>
+                        </div>
+                        <div class="d-flex flex-row align-items-center hint await-c">
+                            <div class=""></div>
+                            <span class="mx-2">Awaiting Status</span>
+                        </div>
+                        <div class="d-flex flex-row align-items-center hint approved-c">
+                            <div class="approved-c"></div>
+                            <span class="mx-2">Approved</span>
+                        </div>
+                        <div class="d-flex flex-row align-items-center hint reject-c">
+                            <div class="reject-c"></div>
+                            <span class="mx-2">Rejected</span>
+                        </div>
+                    </div>
+
+
                 </table>
             </div>
         </div>
