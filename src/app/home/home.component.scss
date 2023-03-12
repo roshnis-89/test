@@ -31,11 +31,16 @@
     line-height: 25px;
     word-spacing: 3px;
 }
+.middle-item{
+  width: 210px;
+}
 .middle-item > h4{
   font-size: 16px;
 }
 .middle-item > p{ 
 font-size: 12px;
+line-height: 16px;
+font-weight: 500;
 }
 .middle-item > img {
   width: 200px;
@@ -45,7 +50,7 @@ font-size: 12px;
 }
 
 .content > p {
-  line-height: 30px;
+  line-height: 26px;
 }
 
 .charv{
